@@ -1,0 +1,16 @@
+Package: rmarchingcubes
+Type: Package
+Title: Efficient implementation of the marching cubes algorithm
+Version: 0.1
+Date: 2021-01-22
+Author: S. H. Wilks
+Maintainer: S. H. Wilks <sw463@cam.ac.uk>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp, RcppArmadillo
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
