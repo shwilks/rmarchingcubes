@@ -60,9 +60,12 @@ marching_cubes_output marching_cubes(
     vertices(i,0) = xmin + xrange*(vert->x / (x.n_elem - 1.0));
     vertices(i,1) = ymin + yrange*(vert->y / (y.n_elem - 1.0));
     vertices(i,2) = zmin + zrange*(vert->z / (z.n_elem - 1.0));
-    normals(i,0) = xmin + xrange*(vert->nx / (x.n_elem - 1.0));
-    normals(i,1) = ymin + yrange*(vert->ny / (y.n_elem - 1.0));
-    normals(i,2) = zmin + zrange*(vert->nz / (z.n_elem - 1.0));
+    normals(i,0) = (vert->nx / xrange) * x.n_elem;
+    normals(i,1) = (vert->ny / yrange) * y.n_elem;
+    normals(i,2) = (vert->nz / zrange) * z.n_elem;
+    // vertices(i,0) = vert->x;
+    // vertices(i,1) = vert->y;
+    // vertices(i,2) = vert->z;
     // normals(i,0) = vert->nx;
     // normals(i,1) = vert->ny;
     // normals(i,2) = vert->nz;
