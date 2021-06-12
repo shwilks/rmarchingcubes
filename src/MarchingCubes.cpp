@@ -18,6 +18,7 @@
 #include <cmath>
 #include <limits>
 #include <iostream>
+#include <RcppArmadillo.h>
 #include "MarchingCubes.h"
 #include "LookUpTable.h"
 
@@ -25,11 +26,11 @@
 //_____________________________________________________________________________
 // print cube for debug
 void print_cube(float *cube) {
-	std::cout << "\t";
+  Rcpp::Rcout << "\t";
 	for(int i=0; i < 8; ++i) {
-		std::cout << cube[i] << " ";
+	  Rcpp::Rcout << cube[i] << " ";
 	}
-	std::cout << "\n";
+	Rcpp::Rcout << "\n";
 }
 //_____________________________________________________________________________
 
@@ -318,11 +319,11 @@ bool MarchingCubes::test_interior( schar s, float *cube )
       Ct = cube[1] + ( cube[5] - cube[1] ) * t ;
       Dt = cube[0] + ( cube[4] - cube[0] ) * t ;
       break ;
-			default : std::cout << " Invalid edge " << edge << "\n";  print_cube(cube) ;  break ;
+			default : Rcpp::Rcout << " Invalid edge " << edge << "\n";  print_cube(cube) ;  break ;
     }
     break ;
 
-  default : std::cout << " Invalid ambiguous case " << _case << "\n";  print_cube(cube) ;  break ;
+  default : Rcpp::Rcout << " Invalid ambiguous case " << _case << "\n";  print_cube(cube) ;  break ;
   }
 
   if( At >= 0 ) test ++ ;
@@ -676,9 +677,9 @@ void MarchingCubes::process_cube(float *cube)
 
       case 45 :/* 13.1 */
         add_triangle( tiling13_1_[_config], 4 ) ; break ;
-
+ 
       default :
-				std::cout << "Marching Cubes: Impossible case 13?\n";  print_cube(cube) ;
+				Rcpp::Rcout << "Marching Cubes: Impossible case 13?\n";  print_cube(cube) ;
       }
       break ;
 
@@ -717,7 +718,7 @@ void MarchingCubes::add_triangle( const char* trig, char n, int v12 ) {
 			}
 
 			if( tv[t] == -1 ) {
-				std::cout << "Marching Cubes: invalid triangle " << (ntrigs() + 1) << "\n";
+			  Rcpp::Rcout << "Marching Cubes: invalid triangle " << (ntrigs() + 1) << "\n";
 				//print_cube() ;
 			}
 		}
