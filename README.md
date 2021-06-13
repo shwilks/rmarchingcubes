@@ -1,4 +1,8 @@
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/shwilks/rmarchingcubes/workflows/R-CMD-check/badge.svg)](https://github.com/shwilks/rmarchingcubes/actions)
+<!-- badges: end -->
+
 # rmarchingcubes
 An R package implementing the efficient marching cubes algorithm written by Thomas Lewiner. Minor changes have been made to the code in order to work with the [armadillo](http://arma.sourceforge.net) C++ library.
 
