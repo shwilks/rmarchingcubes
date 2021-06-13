@@ -1,7 +1,7 @@
 Package: rmarchingcubes
 Type: Package
 Title: Efficient implementation of the marching cubes algorithm
-Version: 0.1.1
+Version: 0.1.2
 Date: 2021-01-22
 Author: S. H. Wilks
 Maintainer: S. H. Wilks <sw463@cam.ac.uk>
