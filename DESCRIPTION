@@ -8,6 +8,7 @@ Maintainer: S. H. Wilks <sw463@cam.ac.uk>
 Description: This package ports the C++ routine for applying the marching cubes algorithm written by Thomas Lewiner into an R package.
 URL: https://github.com/shwilks/rmarchingcubes
 BugReports: https://github.com/shwilks/rmarchingcubes/issues
+Language: en-US
 License: MIT + file LICENSE
 Imports: Rcpp (>= 1.0.5)
 LinkingTo: Rcpp, RcppArmadillo
