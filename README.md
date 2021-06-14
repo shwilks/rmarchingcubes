@@ -4,7 +4,7 @@
 <!-- badges: end -->
 
 # rmarchingcubes
-An R package implementing the efficient marching cubes algorithm written by [Thomas Lewiner](http://thomas.lewiner.org/publication_page.php﹖pubkey=marching_cubes_jgt.html). Minor changes have been made to the code in order to work with the [armadillo](http://arma.sourceforge.net) C++ library.
+An R package implementing the efficient marching cubes algorithm written by [Thomas Lewiner](http://thomas.lewiner.org/tomlew_uk.php.html). Minor changes have been made to the code in order to work with the [armadillo](http://arma.sourceforge.net) C++ library.
 
 ## Installation
 ```r
