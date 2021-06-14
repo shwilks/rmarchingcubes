@@ -2,7 +2,7 @@ Package: rmarchingcubes
 Type: Package
 Title: Efficient Implementation of the Marching Cubes Algorithm for Calculating 3D Contour Meshes
 Version: 0.1.2
-Date: 2021-01-22
+Date: 2021-06-14
 Author: S. H. Wilks
 Maintainer: S. H. Wilks <sw463@cam.ac.uk>
 Description: A port of the C++ routine for applying the marching cubes algorithm written by 
