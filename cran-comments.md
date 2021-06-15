@@ -21,3 +21,4 @@ package.
 - Added Thomas Lewiner as additional package author (wasn't sure whether to list as author or creator
   but seemed like he should show up in the package citation).
 - Included link and doi for relevant publication from Thomas Lewiner et al. in DESCRIPTION
+- Changed title to "Calculate 3D Contour Meshes Using the Marching Cubes Algorithm"
