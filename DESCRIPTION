@@ -1,14 +1,16 @@
 Package: rmarchingcubes
 Type: Package
-Title: Efficient Implementation of the Marching Cubes Algorithm for Calculating 3D Contour Meshes
+Title: Calculate 3D Contour Meshes Using The Marching Cubes Algorithm
 Version: 0.1.2
 Date: 2021-06-14
-Author: S. H. Wilks
+Author: S. H. Wilks <sw463@cam.ac.uk> [aut, cre],
+    Thomas Lewiner <lewiner@gmail.com> [aut]
 Maintainer: S. H. Wilks <sw463@cam.ac.uk>
 Description: A port of the C++ routine for applying the marching cubes algorithm written by 
-    Thomas Lewiner into an R package. The package supplies the contour3d() function, which 
-    takes a 3-dimensional array of voxel data and calculates the vertices, vertex normals, 
-    and faces for a 3d mesh representing the contour(s) at a given level.
+    Thomas Lewiner et al. (2012) <doi:10.1080/10867651.2003.10487582> into an R package. 
+    The package supplies the contour3d() function, which takes a 3-dimensional array of voxel 
+    data and calculates the vertices, vertex normals, and faces for a 3d mesh representing 
+    the contour(s) at a given level.
 URL: https://github.com/shwilks/rmarchingcubes
 BugReports: https://github.com/shwilks/rmarchingcubes/issues
 Language: en-US

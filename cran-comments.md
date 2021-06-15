@@ -15,3 +15,9 @@
 Contains external C++ code written by Thomas Lewiner, he has confirmed that this
 code was released without licence and is happy for it to be included in this
 package.
+
+## Alterations upon resubmission
+- Changed title to "Calculate 3D Contour Meshes Using The Marching Cubes Algorithm" (62 chars)
+- Added Thomas Lewiner as additional package author (wasn't sure whether to list as author or creator
+  but seemed like he should show up in the package citation).
+- Included link and doi for relevant publication from Thomas Lewiner et al. in DESCRIPTION
