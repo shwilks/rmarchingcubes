@@ -176,7 +176,7 @@ bool test_face( schar face, float *cube ) {
 		{4, 7, 6, 5}
 	};
 
-	auto idx = std::abs(face) - 1;
+	arma::uword idx = std::abs(face) - 1;
 	auto corners = corner_lookup[idx];
 	auto A = cube[corners[0]];
 	auto B = cube[corners[1]];

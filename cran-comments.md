@@ -22,3 +22,8 @@ package.
   but seemed like he should show up in the package citation).
 - Included link and doi for relevant publication from Thomas Lewiner et al. in DESCRIPTION
 - Changed title to "Calculate 3D Contour Meshes Using the Marching Cubes Algorithm"
+
+## Alterations upon resubmission 2
+- changed `auto` in C++ code to `arma::uword` explicitly defining variable type. This appears to 
+  fix a compilation error on Solaris, change now allows package to pass checks performed with 
+  `rhub::check_on_solaris()`.
