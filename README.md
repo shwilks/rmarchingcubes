@@ -8,7 +8,7 @@ An R package implementing the efficient marching cubes algorithm written by [Tho
 
 ## Installation
 ```r
-devtools::install("shwilks/rmarchingcubes")
+devtools::install_github("shwilks/rmarchingcubes")
 ```
 
 ## Example usage
