@@ -45,7 +45,7 @@ grid_array <- array(grid_values, dim = c(length(x), length(y), length(z)))
 Now we can run `contour3d()` to apply the marching cubes algorithm and return mesh information representing a 3d contour at our desired level, in this case at a value of 4.
 
 ```{r calculating_contour}
-# Calculate 3d contour from the grid data at a contour level of value 6
+# Calculate 3d contour from the grid data at a contour level of value 4
 contour_shape <- contour3d(
   griddata = grid_array, 
   level = 4,
