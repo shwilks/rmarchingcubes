@@ -49,7 +49,11 @@ test_that("vertex and triangle adjustment adjustment", {
   expect_equal(round(max(result$vertices[,1]) + min(result$vertices[,1]), 5), 0)
   expect_equal(round(max(result$vertices[,2]) + min(result$vertices[,2]), 5), 0)
   expect_equal(min(result$triangles), 1)
+  
+  expect_snapshot_value(
+    result,
+    cran = TRUE,
+    style = "serialize"
+  )
 
 })
-
-
