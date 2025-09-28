@@ -3,7 +3,7 @@ Type: Package
 Title: Calculate 3D Contour Meshes Using the Marching Cubes Algorithm
 Version: 0.1.4
 Date: 2021-06-14
-Author: S. H. Wilks <sw463@cam.ac.uk> [aut, cre],
+Author: S. H. Wilks <sam.wilks@unimelb.edu.au> [aut, cre],
     Thomas Lewiner <lewiner@gmail.com> [aut]
 Maintainer: S. H. Wilks <sw463@cam.ac.uk>
 Description: A port of the C++ routine for applying the marching cubes algorithm written by 
