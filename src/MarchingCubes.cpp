@@ -5,7 +5,7 @@
  * @version 0.2
  * @date    12/08/2002
  *
- * @brief   MarchingCubes Algorithm with modifications by Samuel H. Wilks <sw463@cam.ac.uk>
+ * @brief   MarchingCubes Algorithm with modifications by Samuel H. Wilks <sam.wilks@unimelb.edu.au>
  */
 //________________________________________________
 

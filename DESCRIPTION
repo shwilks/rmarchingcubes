@@ -5,7 +5,7 @@ Version: 0.1.4
 Date: 2021-06-14
 Author: S. H. Wilks <sam.wilks@unimelb.edu.au> [aut, cre],
     Thomas Lewiner <lewiner@gmail.com> [aut]
-Maintainer: S. H. Wilks <sw463@cam.ac.uk>
+Maintainer: S. H. Wilks <sam.wilks@unimelb.edu.au>
 Description: A port of the C++ routine for applying the marching cubes algorithm written by 
     Thomas Lewiner et al. (2012) <doi:10.1080/10867651.2003.10487582> into an R package. 
     The package supplies the contour3d() function, which takes a 3-dimensional array of voxel 
