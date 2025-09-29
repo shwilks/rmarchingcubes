@@ -1,7 +1,7 @@
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/shwilks/rmarchingcubes/workflows/R-CMD-check/badge.svg)](https://github.com/shwilks/rmarchingcubes/actions)
 [![CRAN status](https://www.r-pkg.org/badges/version/rmarchingcubes)](https://CRAN.R-project.org/package=rmarchingcubes)
+[![R-CMD-check](https://github.com/shwilks/rmarchingcubes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/shwilks/rmarchingcubes/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 # rmarchingcubes

@@ -1,9 +1,9 @@
 Package: rmarchingcubes
 Type: Package
 Title: Calculate 3D Contour Meshes Using the Marching Cubes Algorithm
-Version: 0.1.3
+Version: 0.1.4
 Date: 2021-06-14
-Author: S. H. Wilks <sw463@cam.ac.uk> [aut, cre],
+Author: S. H. Wilks <sam.wilks@unimelb.edu.au> [aut, cre],
     Thomas Lewiner <lewiner@gmail.com> [aut]
 Maintainer: S. H. Wilks <sw463@cam.ac.uk>
 Description: A port of the C++ routine for applying the marching cubes algorithm written by 
@@ -18,10 +18,11 @@ License: MIT + file LICENSE
 Imports: Rcpp (>= 1.0.5)
 LinkingTo: Rcpp, RcppArmadillo
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.1
 Suggests: 
     rmarkdown,
     knitr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+Encoding: UTF-8

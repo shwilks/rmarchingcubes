@@ -7,6 +7,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // marching_cubes
 marching_cubes_output marching_cubes(arma::cube data, arma::vec x, arma::vec y, arma::vec z, double iso);
 RcppExport SEXP _rmarchingcubes_marching_cubes(SEXP dataSEXP, SEXP xSEXP, SEXP ySEXP, SEXP zSEXP, SEXP isoSEXP) {
