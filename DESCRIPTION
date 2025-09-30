@@ -2,9 +2,15 @@ Package: rmarchingcubes
 Type: Package
 Title: Calculate 3D Contour Meshes Using the Marching Cubes Algorithm
 Version: 0.1.4
-Date: 2021-06-14
-Author: S. H. Wilks <sam.wilks@unimelb.edu.au> [aut, cre],
-    Thomas Lewiner <lewiner@gmail.com> [aut]
+Date: 2025-09-30
+Authors@R: c(person(given = c("S.", "H."),
+                    family = "Wilks",
+                    role = c("aut", "cre"),
+                    email = "sam.wilks@unimelb.edu.au"),
+             person(given = "Thomas",
+                    family = "Lewiner",
+                    role = "aut",
+                    email = "lewiner@gmail.com"))
 Maintainer: S. H. Wilks <sam.wilks@unimelb.edu.au>
 Description: A port of the C++ routine for applying the marching cubes algorithm written by 
     Thomas Lewiner et al. (2012) <doi:10.1080/10867651.2003.10487582> into an R package. 
